@@ -1,0 +1,23 @@
+# Ambienti locali e cache Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configurazioni private e dati locali (mai pubblicare)
+.env
+.env.*
+!.env.example
+data/
+*.sqlite*
+*.db
+*.db-*
+*.log
+
+# File generati e metadati del sistema
+.DS_Store
+*.zip
+work/
